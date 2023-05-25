@@ -1,0 +1,429 @@
+
+body {
+    background-image: url("https://github.com/JeromeAprile/flexbox-minesweeper/blob/main/img/desktop2.png?raw=true");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+.A {
+    color: blue;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.B {
+    color: green;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.C {
+    color: red;
+    font-size:30px;
+    font-weight: bold;
+}
+
+
+.fond {
+    display: flex;
+    position: relative;
+    border: #f12424 solid 1px;
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.demineur {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 417px;
+    height: 417px;
+    align-items: flex-end;
+    border: 6mm ridge lightgray;
+
+}
+
+.table {
+    position: absolute;
+    
+   
+}
+
+table {
+    border: solid darkgrey 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-collapse: collapse;
+    opacity: 1;
+    background-color: #c7c4c4;
+    z-index: 0;
+
+ 
+}
+
+td {
+    border:  darkgrey 2px;
+    border-style: dashed;
+    text-align: center; 
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    margin: auto;
+    padding: 0; 
+}
+
+.superpose {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+.ligne {
+    display: flex;
+}
+
+.carre {
+    display: flex;
+}
+
+
+/*premiere ligne*/
+
+
+#A1 {
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+
+#A2 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+}
+
+#A2:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#A3 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+}
+
+#A3:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+#A4 {
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+
+#A5 {
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+#A5:hover {
+    background-color: transparent;
+}
+
+#A6 {
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+
+#A7 {
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+
+#A8 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+}
+
+#A8:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+/*deuxième ligne*/
+
+
+#B1 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787;
+    transition: opacity 0s;
+}
+
+#B1:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+#B2 {
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+
+#B3 {
+
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+
+#B4 {
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+
+#B5 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787;
+    transition: opacity 0s;
+}
+
+#B5:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#B6 {
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+}
+
+
+#B7 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+}
+
+#B7:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#B8 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+}
+
+#B8:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+/*troisième ligne*/
+
+
+#C1 {
+    
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;    
+}
+
+#C1:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+#C2 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+
+}
+
+#C2:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#C3 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+}
+
+#C3:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#C4 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+
+}
+
+#C4:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#C5 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+
+}
+
+#C5:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#C6 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+
+}
+
+#C6:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#C7 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+}
+
+#C7:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#C8 {
+    background-color:#c7c4c4;
+    width: 42px;
+    height: 42px;
+    border-top: 5px solid #898787; 
+    border-right: 5px solid #898787; 
+    border-bottom: 5px solid #a8a8a8; 
+    border-left: 5px solid #898787; 
+    transition: opacity 0s;
+}
+
+#C8:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+
+
