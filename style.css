@@ -7,19 +7,22 @@ body {
 
 .A {
     color: blue;
-    font-size:30px;
+    font-family: "VT323";
+    font-size:40px;
     font-weight: bold;
 }
 
 .B {
     color: green;
-    font-size:30px;
+    font-family: "VT323";
+    font-size:40px;
     font-weight: bold;
 }
 
 .C {
     color: red;
-    font-size:30px;
+    font-family: "VT323";
+    font-size:40px;
     font-weight: bold;
 }
 
@@ -115,7 +118,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 }
 
@@ -131,7 +134,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 }
 
@@ -179,7 +182,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 }
 
@@ -199,7 +202,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787;
+    border-left: 5px solid #a8a8a8;
     transition: opacity 0s;
 }
 
@@ -238,7 +241,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787;
+    border-left: 5px solid #a8a8a8;
     transition: opacity 0s;
 }
 
@@ -261,7 +264,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 }
 
@@ -277,7 +280,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 }
 
@@ -298,7 +301,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;    
 }
 
@@ -315,7 +318,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 
 }
@@ -332,7 +335,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 }
 
@@ -348,7 +351,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 
 }
@@ -365,7 +368,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 
 }
@@ -382,7 +385,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 
 }
@@ -399,7 +402,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 }
 
@@ -415,7 +418,7 @@ p {
     border-top: 5px solid #898787; 
     border-right: 5px solid #898787; 
     border-bottom: 5px solid #a8a8a8; 
-    border-left: 5px solid #898787; 
+    border-left: 5px solid #a8a8a8; 
     transition: opacity 0s;
 }
 
